@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    /* font-style: normal; */
+
+}
+body{
+    display: flex;
+}
+aside{
+    width: 30%;
+    border-right: solid #BEC1BB 1px;
+}
+h6{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #1b1f21;
+}
+p{
+    color: #1b1f21;
+    font-family: "Open Sans", sans-serif;
+}
+.user{
+    display: flex;
+    height: 10%;
+    border: solid #BEC1BB 1px;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+.userPfp{
+        width: 15%;
+        height: auto;
+        border-radius: 50%;
+}
+.userInfo{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    gap: 10%;
+}
+.userStatus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icons{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    color: #828485;
+}
+i:hover{
+    color: #1b1f21;
+}
+
+.newChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #BEC1BB 1px;
+    height: 15%;
+}
+
+.btnChat{
+    height: 50%;
+    width: 50%;
+    color: white;
+    background-color: rgba(165,144,211,216);
+    border: none;
+    font-size: larger;
+}
+.btnChat:hover{
+    background-color: #CDC3E6;
+}
+.btnChat:focus{
+    background-color: #E8EBE4;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.friendPfp{
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+}
+.friend{
+    padding: 3%;
+    display: flex;
+    border: solid #BEC1BB 1px;
+
+}
+.friendContent{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+}
+main{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3%;
+
+}
+li:hover{
+    background-color: #D4DCFF;
+}
+.logo{
+    width: 30%;
+}
+h2{
+    color:#1b1f21;
+    font-size: 4rem;
+}
+.text{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+}
